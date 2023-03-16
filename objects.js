@@ -49,5 +49,6 @@ console.log(product['b-h-d'])
 // ---- Verwachte uitkomst:
 // "De Smeg Waterkoker is gemaakt van roestvrijstaal en kunststof"
 
-console.log("De " + product.productName + " is gemaakt van " + product.material[0] + " en " + product.material[1])
+const productInformation = "De " + product.productName + " is gemaakt van " + product.material[0] + " en " + product.material[1]
+console.log(productInformation)
 
